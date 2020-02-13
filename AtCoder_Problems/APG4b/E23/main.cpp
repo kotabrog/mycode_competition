@@ -10,7 +10,7 @@ int main() {
   
   for (int i=0; i < N; i++)
   {
-   	cin >> a;
+    cin >> a;
     pq.push(a);
   }
   
@@ -20,7 +20,7 @@ int main() {
   int count = 0;
   while (pq.top() == top)
   {
-   	count++;
+    count++;
     pq.pop();
     if (pq.empty())
       break;
